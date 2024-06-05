@@ -1,0 +1,24 @@
+{% extends "master.html" %}
+{% block title %}
+    Login
+{% endblock %}
+
+{% block appBar %}
+    Login Page
+{% endblock %}
+
+{% block body %}
+    <div id="form">
+        <form method="post">
+            <label for="userName"></label><input type="text" name="userName" id="userName" placeholder="UserName"
+                                                 required><br>
+            <label for="userPass"></label><input type="password" name="userPass" id="userPass"
+                                                 placeholder="Password"
+                                                 required><br>
+            <input type="submit" value="LOGIN" class="button">
+            <p class="error">{{ message }}</p>
+            <p>you don't have account ?</p>
+            <a href="{% url 'register' %}" class="button">REGISTER</a>
+        </form>
+    </div>
+{% endblock %}

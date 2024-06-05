@@ -1,0 +1,74 @@
+body {
+    background-color: #9E9E9EFF;
+}
+
+.appBar {
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    background-color: #607D8BFF;
+}
+
+h1 {
+    color: #9E9E9EFF;
+}
+
+div {
+    width: 45%;
+    height: 45%;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+form {
+    margin-top: 45px;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button {
+    font: bold 11px Arial;
+    width: 100%;
+    display: grid;
+    text-decoration: none;
+    background-color: #607D8BFF;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-radius: 30px;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.error {
+    color: red;
+}
+
+input {
+    border-radius: 30px;
+}
+
+.note {
+    width: unset;
+    height: unset;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    flex-basis: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}

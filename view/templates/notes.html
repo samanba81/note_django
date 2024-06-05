@@ -1,0 +1,15 @@
+{% extends 'master.html' %}
+
+{% block title %}Notes{% endblock %}
+{% block appBar %}Notes Page{% endblock %}
+{% block body %}
+    <div class="container">
+        {% for note in notes %}
+            <div class="note" style="background-color: #{{ note.noteColor }}">
+            <p>{{ i }}</p>
+                <h2>{{ note.noteTitle }}</h2>
+                <p>{{ note.noteContent }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

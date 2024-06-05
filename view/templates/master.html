@@ -1,0 +1,17 @@
+{% load static %}
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    {#    <script type="text/javascript" src="{% static "js/forms.js" %}"></script>#}
+    <link type="text/css" rel="stylesheet" href="{% static "css/forms.css" %}">
+</head>
+<body>
+
+<div class="appBar">
+    <h1 id="pageName">{% block appBar %}{% endblock %}
+    </h1>
+</div>
+{% block body %}
+{% endblock %}
+</body>
+</html>
