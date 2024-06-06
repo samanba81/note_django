@@ -13,3 +13,4 @@ this is a server for [note_flutter](https://github.com/samanba81/note_flutter)
   - add file required to ez run this project
   - full the view to user can edit or delete note
   - add api to change user password
+  - use cocke for view
